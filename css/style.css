@@ -72,3 +72,60 @@ img {
   clear: both;
 }
 
+/* ---Responsive--- */
+
+/* ---Telefono--- */
+
+@media screen and (max-width: 575px){
+
+  *{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  img{
+    height: 130px;
+  }
+
+  /* Lezioni */
+
+  .row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #lezioni .row> h1{
+  width: 100%;
+  float: left;
+  background-color: #F2F2C9;
+  padding-bottom: 20px;
+  }
+
+  /* How To */
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+  float: left;
+  width: 100%;
+  padding-bottom: 20px;
+  }
+
+  /* Perchè */
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third,
+  #why .row> h1 {
+  width: 100%;
+  background-color:#F2F2C9;
+  margin: 0;
+  padding-bottom: 20px;
+  }
+
+}
